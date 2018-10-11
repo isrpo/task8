@@ -37,6 +37,7 @@ int main() {
 	std::ifstream in("input.txt");
 	std::ofstream out("output.txt");
 	int n;
+	float git;
 	in >> n;
 
 	for (size_t i = 0; i < n; i++) {
