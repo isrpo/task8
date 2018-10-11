@@ -8,9 +8,6 @@ typedef int NUM;
 
 void factorization(std::vector<NUM> & res, NUM num, NUM generalNum)
 {
-	//std::cout << std::this_thread::get_id() << std::endl;
-	// Fermat's factorization method
-
 	if (num % 2 == 1) {
 		NUM s = (NUM)std::sqrt(num);
 		bool flag = false;
